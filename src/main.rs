@@ -30,7 +30,7 @@ fn main() -> std::result::Result<(), eframe::Error> {
     let i18n_manager = Arc::new(Mutex::new(I18nManager::new(app_config.general.language)));
     let app_name = &app_config.app_name;
     let app_path = std::env::current_exe().unwrap().display().to_string();
-    let auto_launch = AutoLaunch::new(app_name, &app_path, &[] as &[&str]);
+    let auto_launch = AutoLaunch::new(app_name, &app_path, true, &[] as &[&str]);
 
     let (width, height) = (
         app_config.window.settings_width,
