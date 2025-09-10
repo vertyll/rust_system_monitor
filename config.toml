@@ -1,0 +1,23 @@
+app_name = "Rust System Monitor"
+active_monitors = [
+    "RamUsage",
+    "CpuUsage",
+]
+
+[general]
+minimized_window_on_startup = false
+run_on_startup = false
+language = "Polish"
+
+[refresh]
+default_refresh_seconds = 4
+min_refresh_seconds = 1
+max_refresh_seconds = 60
+
+[timing]
+tray_error_retry_delay_ms = 100
+ui_repaint_interval = 100
+
+[window]
+settings_width = 500.0
+settings_height = 350.0
