@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Mikołaj Gawron <gawrmiko@gmail.com>"]
 description = "Windows system monitor in tray."
+license = "MIT"
 readme = "README.md"
 keywords = ["system monitor", "monitor", "system", "usage"]
 
