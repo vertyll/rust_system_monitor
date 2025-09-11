@@ -112,13 +112,10 @@ cargo test -- --nocapture
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-
-**Mikołaj Gawron** - [gawrmiko@gmail.com](mailto:gawrmiko@gmail.com)
-
 ## Acknowledgments
 
 - Built with the excellent Rust ecosystem
 - Uses the `sysinfo` crate for cross-platform system information
 - UI powered by the `egui` immediate mode GUI framework
 - Internationalization supported by Mozilla's Fluent framework
+
